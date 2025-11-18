@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-box">
+    <h2>Book Your Room</h2>
+    <form action="success.html" method="post">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        
+        <select name="room_type" required>
+            <option value="">Select Room Type</option>
+            <option value="single">Single Room</option>
+            <option value="double">Double Room</option>
+            <option value="suite">Suite</option>
+        </select>
+
+        <input type="date" name="checkin" placeholder="Check-in Date" required>
+        <input type="date" name="checkout" placeholder="Check-out Date" required>
+
+        <button type="submit" class="btn">Confirm Booking</button>
+    </form>
+</div>
+
+</body>
+</html>
